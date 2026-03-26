@@ -1,0 +1,69 @@
+name: think_fast
+description: Think Fast — Speed Math Reaction Game
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Audio
+  audioplayers: ^6.0.0
+
+  # Haptic (built-in via flutter/services, no extra package needed)
+
+  # App icon & splash (dev tools, run as one-time commands)
+  # flutter_launcher_icons and flutter_native_splash are listed under
+  # dev_dependencies so they don't bloat the release build.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+# ── Launcher Icons ──────────────────────────────────────────────────────────
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.png"      # 1024×1024 PNG, no alpha on bg
+  adaptive_icon_background: "#2563EB"
+  adaptive_icon_foreground: "assets/images/icon_foreground.png"
+  min_sdk_android: 26
+
+# ── Native Splash ───────────────────────────────────────────────────────────
+flutter_native_splash:
+  color: "#2563EB"
+  image: assets/images/splash_logo.png      # white bolt icon, 288×288 PNG
+  android_12:
+    color: "#2563EB"
+    image: assets/images/splash_logo.png
+  android: true
+  ios: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/correct.mp3
+    - assets/audio/wrong.mp3
+    - assets/audio/countdown_tick.mp3
+    - assets/audio/round_start.mp3
+    - assets/audio/round_end.mp3
+    - assets/images/icon.png
+    - assets/images/icon_color.png
+    - assets/images/icon_foreground.png
+    - assets/images/splash_logo.png
+    - assets/images/tutorial/step1_1.png
+    - assets/images/tutorial/step1_2.png
+    - assets/images/tutorial/step1_3.png
+    - assets/images/tutorial/step2_1.gif
+    - assets/images/tutorial/step3_1.gif
+    - assets/images/tutorial/step4_1.gif
+    - assets/images/tutorial/step5_1.gif

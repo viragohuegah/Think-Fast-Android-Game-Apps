@@ -1,0 +1,61 @@
+# ===============================
+# Flutter / Dart Build & Cache
+# ===============================
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+generated_plugin_registrant.dart
+
+# ===============================
+# Gradle / Android
+# ===============================
+/.gradle
+/captures/
+.gradle-wrapper.jar
+/local.properties
+/.cxx/
+*.iml
+.gradle/
+/build/
+.idea/
+
+# ===============================
+# Gradle Wrapper
+# ===============================
+/gradlew
+/gradlew.bat
+
+# ===============================
+# Keystore / Signing (Sensitive!)
+# ===============================
+# Jangan pernah commit keystore atau key.properties ke repo
+key.properties
+**/*.keystore
+**/*.jks
+
+# ===============================
+# Misc / OS files
+# ===============================
+.DS_Store
+*.log
+*.lock
+*.tmp
+*.swp
+
+# ===============================
+# Optional: IDE specific
+# ===============================
+.vscode/
+.idea/
+*.iml
+
+# ===============================
+# Notes
+# ===============================
+# key.properties harus tetap di .gitignore
+# Semua file keystore (.jks / .keystore) wajib tidak di-push ke Git
+# Folder build/ dan cache tidak perlu di-track

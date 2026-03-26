@@ -1,0 +1,46 @@
+# ── Flutter (Android Only) ──────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# ── Android Signing — NEVER commit these ───────────────────────────────────
+android/key.properties
+*.jks
+*.keystore
+
+# ── Android Build ──────────────────────────────────────────────────────────
+android/app/build/
+android/.gradle/
+android/gradle-wrapper.jar
+android/local.properties
+
+# ── Platform Folders (Android Only - ignore others) ──────────────────────
+ios/
+macos/
+linux/
+windows/
+web/
+
+# ── IDE ────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# ── Local config ───────────────────────────────────────────────────────────
+android/local.properties
