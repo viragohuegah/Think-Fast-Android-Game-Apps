@@ -12,7 +12,8 @@ A Flutter mobile game that challenges players to solve quick arithmetic problems
 # 🚀 Think Fast — Speed Math Reaction Game
 
 ## 🎥 Demo Video
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/shorts/LIyGIR7-r6s)
+
+[![Watch the demo](https://img.youtube.com/vi/LIyGIR7-r6s/0.jpg)](https://www.youtube.com/watch?v=LIyGIR7-r6s)
 
 ---
 
