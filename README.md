@@ -13,7 +13,7 @@ A Flutter mobile game that challenges players to solve quick arithmetic problems
 
 ## 🎥 Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/LIyGIR7-r6s/0.jpg)](https://www.youtube.com/watch?v=LIyGIR7-r6s)
+[![Watch the demo](https://img.youtube.com/vi/g1dLo_DFxyo/0.jpg)](https://youtube.com/shorts/g1dLo_DFxyo/)
 
 ---
 
