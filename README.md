@@ -15,6 +15,8 @@ A Flutter mobile game that challenges players to solve quick arithmetic problems
 
 [![Watch the demo](https://img.youtube.com/vi/g1dLo_DFxyo/0.jpg)](https://youtube.com/shorts/g1dLo_DFxyo/)
 
+## 📥 Download Think Fast
+[Download APK](https://drive.google.com/file/d/1ujCxTdyCX4DYk3W7hymq3wazO9-nKV_B/view?usp=sharing)
 ---
 
 ## 📋 Table of Contents
